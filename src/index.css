@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.todo-list-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.todo-item-strong {
+  padding-right: 1rem;
+}

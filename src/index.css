@@ -23,6 +23,27 @@ code {
   margin: 0;
   padding: 0;
 }
-.todo-item-strong {
-  padding-right: 1rem;
+.todo-item-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.todo-item-input {
+  margin-right: 1rem;
+}
+.rm {
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.done {
+  text-decoration: line-through;
+}
+.add-todo-form {
+  margin-bottom: 1rem;
 }

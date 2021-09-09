@@ -47,3 +47,17 @@ code {
 .add-todo-form {
   margin-bottom: 1rem;
 }
+.add-todo-input {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #000;
+}
+.add-todo-button {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  color: #000;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-left: 0.5rem;
+}

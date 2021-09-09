@@ -9,14 +9,14 @@ function AddTodo(props) {
         e.preventDefault();
         if(value.trim()) {
             onCreate(value);
-            setValue=('');
+            setValue('');
         }
     }
 
     return (
     <form className="add-todo-form" onSubmit={handleSubmit}>
-        <input type='text' value={value} onChange={changeText} />
-        <button type='submit'>Add</button>
+        <input type='text' className="add-todo-input" value={value} onChange={changeText} />
+        <button type='submit' className="add-todo-button">Add</button>
     </form>
     )
 }
